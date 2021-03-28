@@ -9,13 +9,13 @@ public class SpawnSystem : MonoBehaviour
 
     private float _currentTime = 0;
     private int _currentSpawnPoint = 0;
-    private List<GameObject> _spawnPoints = new List<GameObject>();
+    private List<Spawner> _spawners = new List<Spawner>();
 
     private void Start()
     {
         for (int i = 0; i < transform.childCount; i++)
         {
-            _spawnPoints.Add(transform.GetChild(i).gameObject);
+            _spawners.Add(transform.GetChild(i).gameObject.GetComponent<Spawner>());
         }
     }
 
@@ -25,7 +25,7 @@ public class SpawnSystem : MonoBehaviour
         if (_currentTime >= _spawnTime)
         {
             _currentTime -= _spawnTime;
-            _spawnPoints[_currentSpawnPoint].GetComponent<Spawner>().Spawn(_spawnObject);
+            _spawners[_currentSpawnPoint].Spawn(_spawnObject);
 
             if (_currentSpawnPoint == transform.childCount - 1)
             {
