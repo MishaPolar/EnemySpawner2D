@@ -10,9 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 2947202843264771858}
   - component: {fileID: 7372076455279270021}
-  - component: {fileID: -4800628400626826613}
+  - component: {fileID: 1474266721175349790}
   m_Layer: 0
-  m_Name: spawnPoint
+  m_Name: SpawnPoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -82,7 +82,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &-4800628400626826613
+--- !u!114 &1474266721175349790
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

@@ -895,7 +895,7 @@ GameObject:
   - component: {fileID: 74990730}
   - component: {fileID: 74990729}
   m_Layer: 0
-  m_Name: spawnersSystem
+  m_Name: SpawnSystem
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1042,7 +1042,7 @@ PrefabInstance:
     - target: {fileID: 2974285376723482686, guid: 51cd37a1b5aaa324a9f2902028f8cdae,
         type: 3}
       propertyPath: m_Name
-      value: spawnPoint (1)
+      value: SpawnPoint (1)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 51cd37a1b5aaa324a9f2902028f8cdae, type: 3}
@@ -1146,7 +1146,7 @@ GameObject:
   - component: {fileID: 871333622}
   - component: {fileID: 871333621}
   m_Layer: 0
-  m_Name: background
+  m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1293,7 +1293,7 @@ PrefabInstance:
     - target: {fileID: 2974285376723482686, guid: 51cd37a1b5aaa324a9f2902028f8cdae,
         type: 3}
       propertyPath: m_Name
-      value: spawnPoint (2)
+      value: SpawnPoint (2)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 51cd37a1b5aaa324a9f2902028f8cdae, type: 3}
@@ -1362,7 +1362,7 @@ PrefabInstance:
     - target: {fileID: 2974285376723482686, guid: 51cd37a1b5aaa324a9f2902028f8cdae,
         type: 3}
       propertyPath: m_Name
-      value: spawnPoint
+      value: SpawnPoint
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 51cd37a1b5aaa324a9f2902028f8cdae, type: 3}
@@ -1376,7 +1376,7 @@ PrefabInstance:
     - target: {fileID: 2985157411412971148, guid: 316ce7df1ac382f47a47e0190bfaa760,
         type: 3}
       propertyPath: m_Name
-      value: enemy
+      value: Enemy
       objectReference: {fileID: 0}
     - target: {fileID: 4664844750244457291, guid: 316ce7df1ac382f47a47e0190bfaa760,
         type: 3}
