@@ -895,7 +895,7 @@ GameObject:
   - component: {fileID: 74990730}
   - component: {fileID: 74990729}
   m_Layer: 0
-  m_Name: SpawnSystem
+  m_Name: Spawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

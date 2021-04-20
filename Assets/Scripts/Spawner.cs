@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SpawnSystem : MonoBehaviour
+public class Spawner : MonoBehaviour
 {
     [SerializeField] private float _spawnTime = 1f;
     [SerializeField] private GameObject _spawnObject;
